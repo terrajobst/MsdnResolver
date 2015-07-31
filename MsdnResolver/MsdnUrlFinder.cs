@@ -8,7 +8,7 @@ namespace MsdnResolver
 {
     internal sealed class MsdnUrlFinder
     {
-        private const string UrlFormat = "http://msdn2.microsoft.com/{0}/library/{1}";
+        private const string UrlFormat = "http://msdn.microsoft.com/{0}/library/{1}";
         private const string Locale = "en-us";
 
         private readonly MsdnWebService _msdnWebService = new MsdnWebService("Microsoft.Fx.Msdn");
