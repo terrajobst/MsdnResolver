@@ -1,7 +1,7 @@
 # MSDN Resolver
 
 This simple console app shows how you can get an MSDN URL, such as
-<http://msdn2.microsoft.com/en-us/library/6sh2ey19>, from an API,
+<http://msdn.microsoft.com/en-us/library/6sh2ey19>, from an API,
 such as ``T:System.Collections.Generic.List`1``:
 
 ```C#
@@ -13,6 +13,6 @@ var finder = new MsdnUrlFinder();
 var url = await finder.GetUrlAsync(documentationId);
 
 // Prints
-// http://msdn2.microsoft.com/en-us/library/6sh2ey19
+// http://msdn.microsoft.com/en-us/library/6sh2ey19
 Console.WriteLine(url);
 ```

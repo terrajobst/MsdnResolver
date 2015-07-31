@@ -20,7 +20,7 @@ namespace MsdnResolver
             var url = await finder.GetUrlAsync(documentationId);
 
             // Prints
-            // http://msdn2.microsoft.com/en-us/library/6sh2ey19
+            // http://msdn.microsoft.com/en-us/library/6sh2ey19
             Console.WriteLine(url);
         }
     }
